@@ -100,12 +100,10 @@
   
     $("button.delbutton").click(function () {
       console.log("clicked");
+      var divbox = $(this).closest("#listUL").fadeOut();
+
       var apikey = '58a17dd754dd0186732642b9';
 
-      /*
-        namedata = $("#addcontact-name").val();
-        descdata = $("#addcontact-desc").val();
-        */
       var userid = $(this).attr("contactid");
       console.log(userid);
       var settings = {
@@ -124,5 +122,6 @@
       $.ajax(settings).fail(function (response) {
         console.log(response);
       });
+      
     });
   }
