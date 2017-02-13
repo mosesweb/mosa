@@ -1,0 +1,11 @@
+
+
+
+
+
+
+
+
+
+Hej! Denna text är inskriven i en helt vanlig text fil (.txt)
+Även en text fil kan ses som en datakälla och databas..
