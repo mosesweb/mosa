@@ -30,8 +30,15 @@
 
 img {
     border-radius: 5px 5px 0 0;
+    height: 150px;
+    width: 150px;
 }
 
 .container {
     padding: 2px 16px;
+}
+#listUL{float: left;
+list-style-type: none;
+margin: 20px;
+font-weight: bold;
 }
