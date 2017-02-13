@@ -78,7 +78,7 @@ function shuffle(array) {
 item.push('<ul id="' + 'listUL' + '">' +'<li id="' + 'listLI' + '">' + 
 getImage(this.picture)+
  '</br>' +this.Name + '</br>'+
- this.Description + '</li>' +'</ul>');});
+ this.Description +'<button id="' + 'delPic' + '">x</button>'+ '</li>' +'</ul>');});
 item.push("</div>");
     item.reverse();
     items_random_order = shuffle(item);
