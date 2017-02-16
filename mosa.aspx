@@ -121,7 +121,7 @@ list-style-type: none;
 //     });
 //   }
 (function ($) {
-  var apikey = '58a17dd754dd0186732642b9';
+  var apikey = '';
   $.ajax({
     async: true,
     url: 'https://mosa-0271.restdb.io/rest/contact',
