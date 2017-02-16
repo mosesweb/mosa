@@ -48,7 +48,7 @@ list-style-type: none;
    <div id='name'></div>
 <script type="text/javascript">
 // (function ($) {
-//     var apikey = '58a17dd754dd0186732642b9';
+//     var apikey = '********************';
 //     $.ajax({
 //     async: true,
 //     url: 'https://mosa-0271.restdb.io/rest/contact',
@@ -105,7 +105,7 @@ list-style-type: none;
 //  function deleting() {
 //     $("button.delbutton").click(function () {
 //         var divbox = $(this).closest("#listUL").fadeOut();
-//         var apikey = '58a17dd754dd0186732642b9';
+//         var apikey = '****************';
 //         var userid = $(this).attr("contactid");
 //         var settings = {
 //         "async": true,

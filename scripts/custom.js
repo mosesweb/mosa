@@ -1,6 +1,6 @@
 ////koden utan random
 // (function($){
-// var apikey = '58a17dd754dd0186732642b9';
+// var apikey = '*****************************';
 // $.ajax({
 // async: true,
 // url: 'https://mosa-0271.restdb.io/rest/contact',
@@ -31,12 +31,12 @@
 // })(jQuery);
 // function getImage(imgid)
 // {
-//   return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=22631469345172666884' />";
+//   return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=************************' />";
 // }
 //.....................................................................................................
 //koden med random
 // (function ($) {
-//   var apikey = '58a17dd754dd0186732642b9';
+//   var apikey = '***********';
 //   $.ajax({
 //     async: true,
 //     url: 'https://mosa-0271.restdb.io/rest/contact',
@@ -70,7 +70,7 @@
 //   return array;
 // }
 //     function getImage(imgid) {
-//       return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=22631469345172666884' />";
+//       return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=**********************' />";
 //     }
  
 //    $(data).each(function(){
@@ -97,7 +97,7 @@
 // 		"method": "GET",
 // 		"headers": {
 // 			"content-type": "application/json",
-// 			"x-apikey": "22631469345172666884",
+// 			"x-apikey": "********************",
 // 		}
 // 	}
 // 	$.ajax(settings).done(function (response) {
@@ -107,7 +107,7 @@
 //..................................................................................................
 // kod med tabort knap
 // (function ($) {
-//     var apikey = '58a17dd754dd0186732642b9';
+//     var apikey = '****************************';
 //     $.ajax({
 //     async: true,
 //     url: 'https://mosa-0271.restdb.io/rest/contact',
@@ -141,7 +141,7 @@
 //       return array;
 //                                  }
 //     function getImage(imgid) {
-//       return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=22631469345172666884' />";
+//       return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=**********************' />";
 //                              }
 
 //      $(data).each(function(){
@@ -216,7 +216,7 @@
       return array;
                                  }
     function getImage(imgid) {
-      return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=22631469345172666884' />";
+      return "<img src='https://mosa-0271.restdb.io/media/" + imgid + "?key=****************' />";
                              }
 
      $(data).each(function(){
